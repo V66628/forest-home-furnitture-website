@@ -15,7 +15,7 @@ div.navigation {
 }
 
 .navigation div>a{
-    color: #ff6700;;
+    color: #72cf98;
     float: left;
     margin-left: 185px;
     text-decoration: none;
@@ -640,7 +640,9 @@ div.center ul.center-explain li span {
     display: inline-block;
     margin-top: 2px;
 }
-/* 交互效果 */
 .inside-navigation li a:hover{
-    color: #ff6700;
+    color: #72cf98;
+}
+#index-a{
+    color: #72cf98;
 }

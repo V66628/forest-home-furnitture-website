@@ -14,7 +14,7 @@ div.navigation {
     line-height: 70px;
 }
 
-.navigation div>a{
+.navigation div>a {
     color: #72cf98;
     float: left;
     margin-left: 185px;
@@ -45,7 +45,8 @@ div.navigation {
     position: relative;
     overflow: hidden;
 }
-.slideshow span{
+
+.slideshow span {
     position: absolute;
     color: rgb(235, 235, 235);
     font-size: 30px;
@@ -53,25 +54,29 @@ div.navigation {
     left: 743px;
     z-index: 999;
 }
-.slideshow ul{
+
+.slideshow ul {
     position: absolute;
     width: 6073.6px;
-    
 }
-.slideshow li{
+
+.slideshow li {
     float: left;
     list-style: none;
 }
+
 .slideshow li img {
     width: 1518.400px;
     height: 670px;
 }
-.slideshow div#dot{
+
+.slideshow div#dot {
     position: absolute;
     top: 640px;
     left: 713.3px;
 }
-.slideshow div#dot a{
+
+.slideshow div#dot a {
     width: 12px;
     height: 12px;
     background-color: rgb(255, 255, 255);
@@ -80,9 +85,11 @@ div.navigation {
     border-radius: 50%;
     opacity: 0.5;
 }
-.slideshow div#dot a:hover{
+
+.slideshow div#dot a:hover {
     opacity: 1;
 }
+
 .transition {
     height: 326px;
     line-height: 326PX;
@@ -540,7 +547,7 @@ div.center ul.center-explain li span {
 .bottom-navigation {
     width: 1518.400px;
     height: 300px;
-    background-color: #202020;
+    background-color: #333333;
     border: 1px solid transparent;
     position: relative;
 }
@@ -558,7 +565,7 @@ div.center ul.center-explain li span {
 }
 
 .bottom-navigation dl dt {
-    color: white;
+    color: #dadada;
     margin-bottom: 20px;
     font-size: 14px;
 }
@@ -589,7 +596,7 @@ div.center ul.center-explain li span {
 }
 
 .bottom-navigation .relation dd a {
-    color: white;
+    color: #dadada;
     font-size: 14px;
 }
 
@@ -639,10 +646,4 @@ div.center ul.center-explain li span {
     color: #898989;
     display: inline-block;
     margin-top: 2px;
-}
-.inside-navigation li a:hover{
-    color: #72cf98;
-}
-#index-a{
-    color: #72cf98;
 }

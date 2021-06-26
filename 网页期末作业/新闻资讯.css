@@ -1,0 +1,374 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.navigation {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    line-height: 70px;
+}
+
+.navigation div>a {
+    color: #72cf98;
+    float: left;
+    margin-left: 185px;
+    text-decoration: none;
+}
+
+.inside-navigation {
+    width: 700px;
+    height: 70px;
+    margin-left: 830px;
+}
+
+.inside-navigation li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.inside-navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.inside-navigation li a:hover {
+    color: #72cf98;
+}
+
+#news {
+    color: #72cf98;
+}
+
+.top {
+    width: 1518.400px;
+    height: 550px;
+}
+
+.top img {
+    width: 1518.4px;
+}
+
+.brand-consult, .opinion, .video {
+    width: 1518.400px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.brand-consult>:nth-child(1), .opinion>:nth-child(1), .video>:nth-child(1) {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #666666;
+}
+
+.brand-consult .spring, .opinion .spring, .video .spring {
+    background-color: #dddddd;
+    width: 580px;
+    height: 1px;
+    float: left;
+}
+
+.brand-consult>:nth-child(2), .opinion>:nth-child(2), .video>:nth-child(2) {
+    margin-top: 10px;
+}
+
+.brand-consult>:nth-child(3), .opinion>:nth-child(3), .video>:nth-child(3) {
+    margin-left: 935px;
+}
+
+.brand-consult>:nth-child(4), .opinion>:nth-child(4), .video>:nth-child(4) {
+    text-align: center;
+}
+
+.brand-consult .consult-bg {
+    width: 900px;
+    height: 340px;
+    background-color: #e6e6e6;
+    margin: 30px auto;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.consult-bg .big {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.consult-bg .big img {
+    width: 400px;
+}
+
+.consult-bg .big>:nth-child(2) {
+    margin: 20px 0px 10px 20px;
+    font-size: 14px;
+}
+
+.consult-bg .big>:nth-child(3) {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.consult-bg ul {
+    position: absolute;
+    top: 20px;
+    left: 450px;
+}
+
+.consult-bg ul li {
+    list-style: none;
+}
+
+.consult-bg ul li>div.small {
+    width: 410px;
+    height: 90px;
+    background-color: white;
+    border: 1px solid transparent;
+    margin-bottom: 11px;
+}
+
+.consult-bg ul li>div.small img {
+    width: 80px;
+    margin: 12px 10px;
+    float: left;
+}
+
+.consult-bg ul li>div.small>:nth-child(2) {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.consult-bg ul li>div.small>:nth-child(3) {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.brand-consult .know-more, .opinion .know-more {
+    width: 90px;
+    height: 20px;
+    border: 1px solid #666666;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 14px;
+}
+
+.brand-consult .know-more a, .opinion .know-more a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.opinion {
+    height: 700px;
+}
+
+.opinion .opinion-ul {
+    width: 960px;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.opinion .opinion-ul li {
+    list-style: none;
+    float: left;
+    margin: 0px 18px;
+}
+
+.opinion .opinion-ul li>div {
+    width: 280px;
+    height: 250px;
+    position: relative;
+    border: 1px solid #cccccc;
+}
+
+.opinion .opinion-ul li>div img {
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.opinion .opinion-ul li>div div {
+    font-size: 12px;
+    margin-left: 9px;
+    margin-top: 6px;
+    color: #333333;
+    position: relative;
+}
+
+.opinion .opinion-ul li>div>:nth-child(3) {
+    position: absolute;
+    bottom: 10px;
+    color: #666666;
+}
+
+.opinion .dynamic-ul li>div {
+    border: 0px;
+}
+
+.opinion .dynamic-ul li>div img {
+    width: 280px;
+    margin: 0px;
+}
+
+.opinion .dynamic-ul li>div .translucent {
+    display: block;
+    width: 280px;
+    height: 100px;
+    background-color: rgba(100, 100, 100, 0.5);
+    position: absolute;
+    margin: 0px;
+    bottom: -8px;
+    text-decoration: none;
+}
+
+.opinion .dynamic-ul li>div .translucent>:nth-child(1) {
+    color: white;
+    margin-top: 10px;
+}
+
+.opinion .dynamic-ul li>div .translucent>:nth-child(2) {
+    color: #cccccc;
+    transform: scale(0.8);
+    margin-left: -22px;
+    margin-top: 0px;
+}
+
+.opinion .dynamic-ul li>div .translucent>:nth-child(3) {
+    color: white;
+    margin-top: 0px;
+}
+
+.video {
+    height: 420px;
+}
+
+.video .video-ul {
+    width: 840px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.video .video-ul li {
+    list-style: none;
+    float: left;
+    margin: 0px 10px;
+}
+
+.video .video-ul li video {
+    width: 400px;
+}
+
+.video .video-ul li div {
+    font-size: 14px;
+    margin: 10px 150px;
+}
+
+.bottom-navigation {
+    width: 1518.400px;
+    height: 300px;
+    background-color: #333333;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.bottom-dl {
+    width: 750px;
+    height: 150px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.bottom-navigation dl {
+    float: left;
+    margin-left: 90px;
+}
+
+.bottom-navigation dl dt {
+    color: #dadada;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.bottom-navigation dl dd a {
+    color: #898989;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.string-bottom {
+    width: 1px;
+    height: 80px;
+    background-color: #898989;
+    position: absolute;
+    left: 940px;
+    top: 115px;
+}
+
+.relation {
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+
+.bottom-navigation .relation dd {
+    margin-top: 10px;
+}
+
+.bottom-navigation .relation dd a {
+    color: #dadada;
+    font-size: 14px;
+}
+
+.roundness {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.bottom-dash {
+    width: 100%;
+    height: 1px;
+    background-color: #898989;
+    margin-top: 45px;
+}
+
+.property {
+    width: 1300px;
+    height: 30px;
+}
+
+.property-explain {
+    float: left;
+    color: #898989;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 160px;
+    list-style: none;
+}
+
+.property .friendly-link {
+    float: right;
+    color: #898989;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.property .friendly-link a {
+    text-decoration: none;
+    color: #898989;
+    display: inline-block;
+    margin-top: 2px;
+}

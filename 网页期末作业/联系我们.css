@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.navigation {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    line-height: 70px;
+}
+
+.navigation div>a{
+    color: #72cf98;
+    float: left;
+    margin-left: 185px;
+    text-decoration: none;
+}
+.inside-navigation {
+    width: 700px;
+    height: 70px;
+    margin-left: 830px;
+}
+
+.inside-navigation li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.inside-navigation li a {
+    text-decoration: none;
+    color: black;
+}
+.inside-navigation li a:hover{
+    color: #72cf98;
+}
+#link-us{
+    color: #72cf98;
+}
+.heading{
+    width: 1518.400px;
+    height: 350px;
+    background-image: url("./img/54.png");
+    border-top: 1px solid transparent;
+
+}
+.heading>:nth-child(1){
+    letter-spacing: 5px;
+    font-weight: 300;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 110px;
+
+}
+.heading>:nth-child(2){
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.bg{
+    width: 1518.400px;
+    height: 300px;
+    background-color: #f1f1f1;
+}
+.bg>div{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: -50px auto 0px 560px;
+    float: left;
+}
+.bg>div div{
+    text-align: center;
+    color: #696969;
+}
+.bg>div>:nth-child(1){
+    margin-top: 10px;
+    font-size: 24px;
+}
+.bg>div>:nth-child(2){
+    margin: 20px 0px 30px 0px;
+}
+.bg>div>:nth-child(3){
+    margin-bottom: 10px;
+
+}
+
+.bg>div>:nth-child(4){
+    color: black;
+    font-weight: 600;
+}
+.bg .bt{
+    width:130px;
+    height: 26px;
+    margin: 0px auto ;
+    background-color: #19bc64;
+    border: 1px solid #19bc64;
+    border-radius: 60px;
+    color: white;
+    padding-top: 3px;
+    
+}
+.bg>div>:nth-child(5){
+    margin-top: 30px;
+}
+.bg>div>#iss{
+    background-color: #bd7738;
+    border: 1px solid #bd7738;
+}
+.consult{
+    height: 250px;
+    width: 900px;
+    margin: 0px auto ;
+}
+.consult div{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.consult dl{
+    margin: 0px 75px;
+    margin-top: 40px;
+    float: left;
+    color: #696969;
+}
+.consult dl dt{
+    margin-bottom: 20px;
+}
+.consult dl dd{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.bottom-navigation {
+    width: 1518.400px;
+    height: 300px;
+    background-color: #333333;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.bottom-dl {
+    width: 750px;
+    height: 150px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.bottom-navigation dl {
+    float: left;
+    margin-left: 90px;
+}
+
+.bottom-navigation dl dt {
+    color: #dadada;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.bottom-navigation dl dd a {
+    color: #898989;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.string-bottom {
+    width: 1px;
+    height: 80px;
+    background-color: #898989;
+    position: absolute;
+    left: 940px;
+    top: 115px;
+}
+
+.relation {
+    position: absolute;
+    top: 70px;
+    left: 900px;
+}
+
+.bottom-navigation .relation dd {
+    margin-top: 10px;
+}
+
+.bottom-navigation .relation dd a {
+    color: #dadada;
+    font-size: 14px;
+}
+
+.roundness {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.bottom-dash {
+    width: 100%;
+    height: 1px;
+    background-color: #898989;
+    margin-top: 45px;
+}
+
+.property {
+    width: 1300px;
+    height: 30px;
+}
+
+.property-explain {
+    float: left;
+    color: #898989;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 160px;
+    list-style: none;
+}
+
+.property .friendly-link {
+    float: right;
+    color: #898989;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.property .friendly-link a {
+    text-decoration: none;
+    color: #898989;
+    display: inline-block;
+    margin-top: 2px;
+}

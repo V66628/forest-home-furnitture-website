@@ -647,3 +647,9 @@ div.center ul.center-explain li span {
     display: inline-block;
     margin-top: 2px;
 }
+.inside-navigation li a:hover {
+    color: #72cf98;
+}
+.bottom-dl dd a:hover{
+    color: #72cf98;
+}

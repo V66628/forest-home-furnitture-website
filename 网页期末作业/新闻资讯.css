@@ -372,3 +372,6 @@ div.navigation {
     display: inline-block;
     margin-top: 2px;
 }
+.bottom-dl dd a:hover{
+    color: #72cf98;
+}
